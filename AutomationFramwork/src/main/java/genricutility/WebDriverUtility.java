@@ -77,6 +77,7 @@ public void doubbleClick(WebDriver driver,WebElement element) {
 		File temp = ts.getScreenshotAs(OutputType.FILE);
 		File dest=new File("./screenshot/"+utility.getSystemTime()+"pang");
 		FileHandler.copy(temp, dest);
+		FileHandler.copy(temp, dest);
 	}
 	
 }
